@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/reveal-override.css"/>
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -23,9 +24,65 @@
 	</head>
 	<body>
 		<div class="reveal">
+
+			<header style="position: absolute;top: 50px; left: 100px; z-index:500; font-size:100px;)"></header>
+
 			<div class="slides">
-				<section>Evaluating a Design</section>
-				<section>Slide 2</section>
+					<section data-state="header1">
+						<!-- Attempting to put the QR code for the slides at the top of the doc
+						<style>.header1 header:after {display: inline-block; width: 75px; height: 75px; background-size: 100%; content: ""; background: url(./QR.png) no-repeat 0 0; }</style>
+						-->
+						<h2>How to evaluate design</h2>
+						<img src="./QR.png" height=400px width=400px>
+					</section>
+				<section data-background-iframe="http://theuserisdrunk.com/" data-background-interactive></section>
+				<section data-background-iframe="https://theuserismymom.com/" data-background-interactive></section>
+				<section data-background-image="https://media.giphy.com/media/q0fI9WdWkgjF6/source.gif"> </section>
+				<section>Conceptual Model</section>
+				<section>Knowledge in the world vs knowledge in the head</section>
+				<section>Signifiers and afordances</section>
+				<section>The gulf of execution and the gulf of evaluation</section>
+				<section>Jakob Nielsens Heuristic Evaluation</section>
+				<section> 
+									1. Visibility of system status
+									<p>The system should always keep users informed about what is going on, through appropriate feedback within reasonable time </p>
+			  </section>
+				<section> 
+									2. Match between system and the real world  
+									<p>The system should speak the user's language, with words, phrases and concepts familiar to the use, rather than system orientated terms. </p>
+				</section>
+				<section> 
+									3. User control and freedom  
+									<p> Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leace the unwanted state without having to go through an extended dialogue. Support undo and redo  </p>	
+				</section>
+				<section> 
+									4. Consistency and standards  
+									<p> Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.</p>
+				</section>
+				<section> 
+									5. Error prevention  
+									<p>Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action. </p>
+				</section>
+				<section> 
+									6. Recognition rather than recall  
+									<p>Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate. </p>
+				</section>
+				<section> 
+									7. Flexibility and efficiency of use  
+									<p>Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user usch that the system can cater to both inexperienced and experienced users. Allo users to tailor frequent actions. </p>
+				</section>
+				<section> 
+									8. Aesthetic and minimalist design  
+									<p>Dialogures should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility. </p>
+				</section>
+				<section> 
+									9. Help users recognise, diagnose, and recover from errors  
+									<p> Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
+				</section>
+				<section> 
+									10. Help and Documentation  
+									<p>Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large. </p>
+				</section>
 			</div>
 		</div>
 
