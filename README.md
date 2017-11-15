@@ -1,3 +1,5 @@
-##EIE1 UCIS evaluation
+## EIE1 UCIS Design Thiking
 
-This lecture explores how to use the knowlege previously presented in the course to evaluate whether a design is effective or not.
+This lecture explores what is meant by design thinking and how it can be applied to your Exercise 3 coursework.
+
+Website for the slides: https://stfleming.github.io/icl-eie1-ucis-design-thinking/
